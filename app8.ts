@@ -1,8 +1,9 @@
-var userinput = prompt("Enter any alphabet")
 
-console.log(userinput)
+var inp:string | null = prompt("Enter any alphabet");
 
-if (userinput == a ) {
+var userinput:string= parseInt(inp);
+
+if (userinput>=a ) {
     console.log("The  alphabet is vowel");
 }
 
